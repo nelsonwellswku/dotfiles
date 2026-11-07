@@ -1,0 +1,12 @@
+alias noc='nono run --profile nolabs-ai/opencode --allow-cwd -- opencode --standalone'
+alias nocp='nono run --profile opencode-personal --allow-cwd -- opencode --standalone'
+
+alias dc='docker compose'
+alias tf='terraform'
+# OpenCode launchers (sandboxed with nono)
+alias noc='nono run --profile nolabs-ai/opencode --allow-cwd -- opencode --standalone' # Labs AI profile
+alias nocp='nono run --profile opencode-personal --allow-cwd -- opencode --standalone' # Personal profile
+
+# Infrastructure and development tools
+alias dc='docker compose'
+alias tf='terraform'
